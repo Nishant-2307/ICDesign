@@ -1,0 +1,258 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Feb 15 22:51:51 2025
+# Process ID: 16770
+# Current directory: /home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/synth_1
+# Command line: vivado -log top_knowles_bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_knowles_bit.tcl
+# Log file: /home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/synth_1/top_knowles_bit.vds
+# Journal file: /home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/synth_1/vivado.jou
+#-----------------------------------------------------------
+source top_knowles_bit.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:19 . Memory (MB): peak = 1384.527 ; gain = 118.020 ; free physical = 250789 ; free virtual = 484442
+Command: synth_design -top top_knowles_bit -part xc7a200tfbg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18112 
+WARNING: [Synth 8-2490] overwriting previous definition of module BitwiseG [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:334]
+WARNING: [Synth 8-2490] overwriting previous definition of module BitwiseP [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:345]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFFER [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:355]
+WARNING: [Synth 8-2490] overwriting previous definition of module BlackCell [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:368]
+WARNING: [Synth 8-2490] overwriting previous definition of module GrayCell [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:385]
+WARNING: [Synth 8-2490] overwriting previous definition of module SumGen [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:400]
+WARNING: [Synth 8-2490] overwriting previous definition of module BitwiseG [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:592]
+WARNING: [Synth 8-2490] overwriting previous definition of module BitwiseP [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:603]
+WARNING: [Synth 8-2490] overwriting previous definition of module BUFFER [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:613]
+WARNING: [Synth 8-2490] overwriting previous definition of module BlackCell [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:626]
+WARNING: [Synth 8-2490] overwriting previous definition of module GrayCell [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:643]
+WARNING: [Synth 8-2490] overwriting previous definition of module SumGen [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:658]
+WARNING: [Synth 8-2490] overwriting previous definition of module clk_div [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_moore.v:76]
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:04 ; elapsed = 00:00:12 . Memory (MB): peak = 1494.352 ; gain = 98.250 ; free physical = 250668 ; free virtual = 484268
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'top_knowles_bit' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:2]
+INFO: [Synth 8-6157] synthesizing module 'BitwiseG' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:592]
+INFO: [Synth 8-6155] done synthesizing module 'BitwiseG' (1#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:592]
+INFO: [Synth 8-6157] synthesizing module 'BitwiseP' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:603]
+INFO: [Synth 8-6155] done synthesizing module 'BitwiseP' (2#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:603]
+INFO: [Synth 8-6157] synthesizing module 'BUFFER' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:613]
+INFO: [Synth 8-6155] done synthesizing module 'BUFFER' (3#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:613]
+INFO: [Synth 8-6157] synthesizing module 'GrayCell' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:643]
+INFO: [Synth 8-6155] done synthesizing module 'GrayCell' (4#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:643]
+INFO: [Synth 8-6157] synthesizing module 'BlackCell' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:626]
+INFO: [Synth 8-6155] done synthesizing module 'BlackCell' (5#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:626]
+INFO: [Synth 8-6157] synthesizing module 'SumGen' [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:658]
+INFO: [Synth 8-6155] done synthesizing module 'SumGen' (6#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_lander_fisher_bit.v:658]
+INFO: [Synth 8-6155] done synthesizing module 'top_knowles_bit' (7#1) [/home/nishantk24/give-environment-name/scripting-and-automation/Modules/top_knowels_bit.v:2]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:16 . Memory (MB): peak = 1523.484 ; gain = 127.383 ; free physical = 250727 ; free virtual = 484325
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1523.484 ; gain = 127.383 ; free physical = 250703 ; free virtual = 484305
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:06 ; elapsed = 00:00:17 . Memory (MB): peak = 1531.484 ; gain = 135.383 ; free physical = 250693 ; free virtual = 484295
+INFO: [Device 21-403] Loading part xc7a200tfbg676-2
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:18 . Memory (MB): peak = 1540.500 ; gain = 144.398 ; free physical = 250598 ; free virtual = 484200
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 64    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module SumGen 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module BitwiseP 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:02:00 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 251003 ; free virtual = 484586
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:02:01 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 250915 ; free virtual = 484499
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:02:01 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 251034 ; free virtual = 484618
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:02:03 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 250895 ; free virtual = 484479
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:02:03 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 250888 ; free virtual = 484471
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:02:03 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 250928 ; free virtual = 484511
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:02:03 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 250948 ; free virtual = 484532
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:02:04 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 251001 ; free virtual = 484585
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:02:04 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 251040 ; free virtual = 484623
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT2 |    11|
+|2     |LUT3 |    26|
+|3     |LUT4 |    52|
+|4     |LUT5 |    68|
+|5     |LUT6 |    34|
+|6     |IBUF |    65|
+|7     |OBUF |    33|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |   289|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:02:04 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 251040 ; free virtual = 484624
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 13 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:02:04 . Memory (MB): peak = 1713.180 ; gain = 317.078 ; free physical = 251125 ; free virtual = 484709
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:02:04 . Memory (MB): peak = 1713.184 ; gain = 317.078 ; free physical = 251128 ; free virtual = 484712
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 65 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+23 Infos, 13 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:02:14 . Memory (MB): peak = 1839.203 ; gain = 454.676 ; free physical = 252194 ; free virtual = 485776
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint '/home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/synth_1/top_knowles_bit.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file top_knowles_bit_utilization_synth.rpt -pb top_knowles_bit_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.68 . Memory (MB): peak = 1863.223 ; gain = 0.000 ; free physical = 252045 ; free virtual = 485625
+INFO: [Common 17-206] Exiting Vivado at Sat Feb 15 22:54:59 2025...

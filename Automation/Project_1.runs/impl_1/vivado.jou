@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat Feb 15 22:55:07 2025
+# Process ID: 22540
+# Current directory: /home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/impl_1
+# Command line: vivado -log top_knowles_bit.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source top_knowles_bit.tcl -notrace
+# Log file: /home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/impl_1/top_knowles_bit.vdi
+# Journal file: /home/nishantk24/give-environment-name/scripting-and-automation/Automation/Project_1.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source top_knowles_bit.tcl -notrace
