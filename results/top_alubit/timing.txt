@@ -1,0 +1,71 @@
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Timing 38-78] ReportTimingParams: -max_paths 1 -nworst 1 -delay_type max -sort_by slack.
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
+| Date         : Sat Feb 15 20:24:10 2025
+| Host         : vlsi.iitgn.ac.in running 64-bit CentOS Linux release 7.4.1708 (Core)
+| Command      : report_timing
+| Design       : top_alubit
+| Device       : 7a200t-fbg676
+| Speed File   : -2  PRODUCTION 1.22 2018-03-21
+--------------------------------------------------------------------------------------
+
+Timing Report
+
+Slack:                    inf
+  Source:                 operand_B[0]
+                            (input port)
+  Destination:            zero_flag
+                            (output port)
+  Path Group:             (none)
+  Path Type:              Max at Slow Process Corner
+  Data Path Delay:        13.830ns  (logic 5.834ns (42.187%)  route 7.995ns (57.813%))
+  Logic Levels:           15  (CARRY4=5 IBUF=1 LUT2=1 LUT4=1 LUT5=1 LUT6=5 OBUF=1)
+
+    Location             Delay type                Incr(ns)  Path(ns)    Netlist Resource(s)
+  -------------------------------------------------------------------    -------------------
+    M21                                               0.000     0.000 f  operand_B[0] (IN)
+                         net (fo=0)                   0.000     0.000    operand_B[0]
+    M21                  IBUF (Prop_ibuf_I_O)         0.893     0.893 f  operand_B_IBUF[0]_inst/O
+                         net (fo=24, routed)          1.872     2.764    operand_B_IBUF[0]
+    SLICE_X5Y120         LUT2 (Prop_lut2_I1_O)        0.119     2.883 r  result_OBUF[2]_inst_i_12/O
+                         net (fo=1, routed)           0.477     3.360    result_OBUF[2]_inst_i_12_n_0
+    SLICE_X3Y120         LUT6 (Prop_lut6_I1_O)        0.267     3.627 r  result_OBUF[2]_inst_i_8/O
+                         net (fo=1, routed)           0.000     3.627    result_OBUF[2]_inst_i_8_n_0
+    SLICE_X3Y120         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.332     3.959 r  result_OBUF[2]_inst_i_4/CO[3]
+                         net (fo=1, routed)           0.000     3.959    result_OBUF[2]_inst_i_4_n_0
+    SLICE_X3Y121         CARRY4 (Prop_carry4_CI_CO[3])
+                                                      0.098     4.057 r  result_OBUF[10]_inst_i_13/CO[3]
+                         net (fo=1, routed)           0.000     4.057    result_OBUF[10]_inst_i_13_n_0
+    SLICE_X3Y122         CARRY4 (Prop_carry4_CI_O[1])
+                                                      0.265     4.322 r  result_OBUF[14]_inst_i_15/O[1]
+                         net (fo=3, routed)           0.856     5.178    result_OBUF[14]_inst_i_15_n_6
+    SLICE_X4Y125         LUT4 (Prop_lut4_I3_O)        0.250     5.428 r  result_OBUF[10]_inst_i_19/O
+                         net (fo=2, routed)           0.626     6.054    result_OBUF[10]_inst_i_19_n_0
+    SLICE_X6Y123         LUT6 (Prop_lut6_I3_O)        0.105     6.159 r  result_OBUF[10]_inst_i_4/O
+                         net (fo=2, routed)           0.666     6.824    result_OBUF[10]_inst_i_4_n_0
+    SLICE_X5Y123         LUT5 (Prop_lut5_I0_O)        0.105     6.929 r  result_OBUF[10]_inst_i_8/O
+                         net (fo=1, routed)           0.000     6.929    result_OBUF[10]_inst_i_8_n_0
+    SLICE_X5Y123         CARRY4 (Prop_carry4_S[3]_CO[3])
+                                                      0.332     7.261 r  result_OBUF[10]_inst_i_2/CO[3]
+                         net (fo=1, routed)           0.000     7.261    result_OBUF[10]_inst_i_2_n_0
+    SLICE_X5Y124         CARRY4 (Prop_carry4_CI_O[3])
+                                                      0.260     7.521 f  result_OBUF[14]_inst_i_2/O[3]
+                         net (fo=2, routed)           0.944     8.465    data2[14]
+    SLICE_X4Y120         LUT6 (Prop_lut6_I5_O)        0.257     8.722 r  zero_flag_OBUF_inst_i_10/O
+                         net (fo=1, routed)           0.346     9.068    zero_flag_OBUF_inst_i_10_n_0
+    SLICE_X4Y120         LUT6 (Prop_lut6_I5_O)        0.105     9.173 r  zero_flag_OBUF_inst_i_3/O
+                         net (fo=1, routed)           0.677     9.850    zero_flag_OBUF_inst_i_3_n_0
+    SLICE_X2Y120         LUT6 (Prop_lut6_I2_O)        0.105     9.955 r  zero_flag_OBUF_inst_i_1/O
+                         net (fo=1, routed)           1.533    11.488    zero_flag_OBUF
+    N19                  OBUF (Prop_obuf_I_O)         2.342    13.830 r  zero_flag_OBUF_inst/O
+                         net (fo=0)                   0.000    13.830    zero_flag
+    N19                                                               r  zero_flag (OUT)
+  -------------------------------------------------------------------    -------------------
+
+
+
+
